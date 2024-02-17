@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Task3.CSS">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Task3</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="Index.html">OpenAI</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="About.html">About US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Contact.html">Contact US</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <img style="width: 100%;" src="/A2-PartB/Task3/images/Hero-bg.webp" class="img-fluid demo" alt="No-image">
+    <br><br><br><br><br><br>
+    <figure class="text-center">
+        <blockquote class="blockquote">
+            <p>"Sora will change the world"</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+            Sam Altman <cite title="Source Title">CEO OpenAI</cite>
+        </figcaption>
+    </figure>
+    <p class="lead">
+        We’re teaching AI to understand and simulate the physical world in motion, with the goal of training models that
+        help people solve problems that require real-world interaction.
+
+        Introducing <b> Sora</b>, our text-to-video model. Sora can generate videos up to a minute long while
+        maintaining visual
+        quality and adherence to the user’s prompt.
+
+
+    </p>
+    <img src="/A2-PartB/Task3/images/Aboutus1.jpg" class="img-thumbnail img-fluid " alt="...">
+    <figcaption class="figure-caption text-center">Sora-A project by <b> OpenAI</b></figcaption>
+
+
+    <br><br><br><br><br><br>
+
+    <section class="Services">
+        <h1 class="display-3 text-center">Our Services</h1>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="/A2-PartB/Task3/images/service5.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Chat with images</h5>
+                        <p class="card-text">
+                            You can now show ChatGPT images and start a chat. Troubleshoot why your grill won’t start,
+                            explore the contents of your fridge to plan a meal, or analyze a complex graph for
+                            work-related data.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="/A2-PartB/Task3/images/service2.avif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">DALL·E: Creating images from text</h5>
+                        <p class="card-text">We’ve trained a neural network called DALL·E that creates images from text
+                            captions for a
+                            wide range of concepts expressible in natural language.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="/A2-PartB/Task3/images/service3.avif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">CLIP: Connecting text and images</h5>
+                        <p class="card-text">
+                            We’re introducing a neural network called CLIP which efficiently learns visual concepts from
+                            natural language supervision.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="/A2-PartB/Task3/images/service6.avif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Summarizing books with human feedback</h5>
+                        <p class="card-text">
+                            We've trained a model to summarize entire books with human feedback.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <br><br><br><br><br><br>
+
+    <section class="form11">
+        <div class="container">
+            <h1 class="text-center">Contact Us</h1>
+            <form class="container border border-dark shadow p-4 rounded">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Enter your message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary mr-2">Submit</button>
+              <button type="reset" class="btn btn-secondary">Reset</button>
+            </form>
+          </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
